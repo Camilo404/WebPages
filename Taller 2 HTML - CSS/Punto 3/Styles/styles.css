@@ -1,0 +1,155 @@
+	/* JUAN CAMILO ACEVEDO NOREÑA - TECNOLOGIA EN DISEÑO Y DESARROLLO WEB */
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		width: 100%;
+		height: auto;
+		background-color: dimgrey;
+	}
+
+	.contenedor {
+		width: 100%;
+		background-color: #FFFFFF;
+		overflow: hidden;
+	}
+
+	#logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	#header {
+		width: 100%;
+		height: 20%;
+		background-color:#49C2CF;
+	}
+
+	#left {
+		width:15%;
+		height: 520px;
+        background-color: dodgerblue;
+		float: left;
+	}
+
+	#center {
+		width:70%;
+		height: 520px;
+		background-color: #53DBE9;
+		float: left;
+	}
+
+	#marcasautomoviles{
+		width: 100%;
+		height: 500px; 
+		overflow: hidden;
+		margin: 10px;
+		display: block;
+		margin: 0;
+	}
+
+	.marcas{
+		width: 175px;
+		height: 270px;
+		margin: 25px;
+		float: left;
+		border: 3px solid #A49C9A;
+		text-align: center;
+	}
+
+	#h3marcas {
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+	.url {
+		color: #000000;
+		font-size: 19px;
+	}
+
+	#right {
+		width:15%;
+		height: 520px;
+        background-color: dodgerblue;
+		float: left;
+	}
+
+	#footer {
+		width: 100%;
+		height:20%;
+        background-color: #49C2CF;
+        clear:both;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	h1 {
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+	h2 {
+		text-align: left;
+		margin-left: 10px;
+		color: #FFFFFF;
+	}
+
+	#DatosC {
+		text-align: left;
+		margin-left: 10px;
+		color: #FFFFFF;
+	}
+
+	ul {
+		margin-left: 30px;
+		color: #FFFFFF;
+	}
+
+	li {
+		margin: 10px;
+	}
+
+	#alista {
+		color: aqua;
+		font-size: 19px;
+	}
+
+	#pright {
+		color: #000000;
+		font-size: 16px;
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: justify;
+	}
+
+	#pfooter {
+		color: #000000;
+		font-size: 16px;
+		margin-left: 10px;
+		margin-right: 10px;
+		display: inline-block;
+	}
+
+	#h1footer {
+		text-align: center;
+	}
+
+	#center p{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#center img {
+		display: block;
+		margin: 0 auto;
+	}
+	#center h2 {
+		text-align: center;
+	}
+	#center a {
+		display: block;
+		text-align: center;
+	}
+	/* JUAN CAMILO ACEVEDO NOREÑA - TECNOLOGIA EN DISEÑO Y DESARROLLO WEB */
