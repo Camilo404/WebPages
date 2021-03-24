@@ -1,0 +1,172 @@
+<!--JUAN CAMILO ACEVEDO NOREÑA - TECNOLOGIA EN DISEÑO Y DESARROLLO WEB-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla</title>
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--Barra de navegación-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" id="navbar">
+        <div class="container-fluid">
+            
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo-tesla.png" alt="" width="100">
+            </a>
+            
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto text-center">
+                    <li class="nav-item ml-auto mr-auto">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Modelos
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="models/Model-S.html">Model S</a></li>
+                          <li><a class="dropdown-item" href="models/Model-3.html">Model 3</a></li>
+                          <li><a class="dropdown-item" href="models/Model-X.html">Model X</a></li>
+                          <li><a class="dropdown-item" href="models/Model-Y.html">Model Y</a></li>
+                          <li><a class="dropdown-item" href="models/Roadster.html">Roadster</a></li>
+                          <li><a class="dropdown-item" href="models/Cybertruck.html">Cybertruck</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ubiquenos.html">Ubíquenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactanos.html">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="m--5 d-sm-block m-auto">
+
+                <a class="navbar-brand" href="#">
+                    <img src="img/facebook.svg" alt="facebook-icon" width="30" height="30">
+                </a>
+                <a class="navbar-brand" href="#">
+                    <img src="img/instagram.svg" alt="instagram-icon" width="30" height="30">
+                </a>
+                <a class="navbar-brand" href="#">
+                    <img src="img/twitter.svg" alt="twitter-icon" width="30" height="30">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Slider-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="img/autotesla1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item active">
+            <img src="img/autotesla2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/autotesla3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!--Información-->
+    <div id="titulo">
+        <div class="container pt-3 pb-3">
+            <div id="extras">
+                <div class="row">
+                    <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1">
+                        <div class="text-center">
+                            <img src="img/elon-musk.jpg" alt="Responsive image" class="rounded img-fluid" width="400" >
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <h1 class="text-center">Nuestra Historia</h1>
+                        <hr>
+                        <p>
+                            Somos una empresa estadounidense con sede en Palo Alto, California, y liderada por Elon Musk, 
+                            que diseña, fabrica y vende automóviles eléctricos, componentes para la propulsión de vehículos 
+                            eléctricos y baterías domésticas.
+                        </p>
+                        <p>
+                            Fue fundada en julio de 2003 por los ingenieros Martin Eberhard y Marc Tarpenning como Tesla Motors. 
+                            El nombre de la empresa es un tributo al inventor e ingeniero eléctrico Nikola Tesla.​ Los siguientes 
+                            tres empleados fueron Ian Wright, Elon Musk y JB Straubel, quienes fueron nombrados co-fundadores de 
+                            la compañía.​ Elon Musk ya había fundado varias empresas, era millonario y había tenido la idea de desarrollar 
+                            baterías para el almacenamiento de energía renovable. Después de reunirse con Eberhard y Wright, Musk invirtió 
+                            6.5 millones de dólares en la compañía. Por lo que quedó como presidente de la empresa, Martin Eberhard como 
+                            CEO y JB Straubel como CTO.
+                        </p>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="text-center text-white" style="background-color: #1D2023;">
+        <div class="container p-4 pb-0">
+            <section class="">
+            <form action="">
+                <div class="row d-flex justify-content-center">
+                <div class="col-auto">
+                    <p class="pt-2">
+                    <strong>Subscribirse al boletin</strong>
+                    </p>
+                </div>
+
+                <div class="col-md-5 col-12">
+                    <div class="form-outline form-white mb-2">
+                    <input type="email" id="form5Example2" class="form-control" />
+                    <label class="form-label" for="form5Example2">Correo Electronico</label>
+                    </div>
+                </div>
+
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-outline-light mb-4">
+                    Subscribirme
+                    </button>
+                </div>
+                </div>
+            </form>
+            </section>
+        </div>
+        
+        <div class="text-center p-3" style="background-color: #212529;">
+            © 2021 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Camilo Acevedo</a>
+        </div>
+    </footer>
+</body> 
+</html>
+<!--JUAN CAMILO ACEVEDO NOREÑA - TECNOLOGIA EN DISEÑO Y DESARROLLO WEB-->
